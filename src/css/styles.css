@@ -5,6 +5,7 @@ Fonts
   font-family: "Montserrat";
   font-weight: 400 700;
   src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+  font-display: swap;
 }
 
 /*************************
