@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <meta name="description"
+        content="Sitio web de turismo de Vigo">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/app.js" async></script>
+  </head>
+  <body class="page-index">
+    <header>
+        <div class="container">
+          <div class="container-header">
+            <a class="header-logo-link" href="index.html">
+                <img src="img/logos/logo.png" class="header-logo" alt="cookination logo">
+                
+            </a>
+            <div class="header-title">
+              <span><strong>Vigo es la mejor ciudad del mundo</strong></span>
+            </div>
+            
+          </div>
+        </div>
+    </header>
+    <main>
+      <div class="container container-categorias ">
+
+        <div class="submenu">
+            <h3>Categorias</h3>
+            <div class="checkbox-column">
+                <label><input id="monumentos" type="checkbox" onclick="filtrar();">Monumentos y Esculturas</label>
+                <label><input id="museos" type="checkbox" onclick="filtrar();">Muesos y Fundaciones</label>
+            </div>
+        </div>
+
+        <div>
+            
+            <section class="container monumentos">
+                <h2>Monumentos</h2>
+                <hr>
+                <div class="categorias-grid">
+                    <div >
+                        <a href="monumentos/sireno.html">
+                            <img alt="Escultura El Sireno" src="img/monumentos/sireno_centrado.jpg">
+                            <h3>El Sireno</h3>
+                        </a>
+                    </div>
+                    <div >
+                        <a href="monumentos/julioverne.html">
+                            <img alt="Monumento a Julio Verne" src="img/monumentos/julioverne_centrado.jpg">
+                            <h3>Monumento a Julio Verne</h3>
+                        </a>
+                    </div>
+                    <div >
+                        <a href="monumentos/puertaatlantico.html">
+                            <img alt="Escultura La Puerta del Atlántico" src="img/monumentos/puertaatlantico_centrado.jpg">
+                            <h3>La Puerta del Atlántico</h3>
+                        </a>
+                    </div>
+                </div> 
+            </section>
+
+            <section class="container museos">
+                <h2>Museos</h2>
+                <hr>
+                <div class="categorias-grid">
+                    <div>
+                        <a href="museos/museocastrelos.html">
+                            <img alt="Museo-Pazo Quiñones de León" src="img/museos/museocastrelos.jpg">
+                            <h3>Museo-Pazo Quiñones de León</h3>
+                        </a>
+                    </div>
+                    <div >
+                        <a href="museos/museomar.html">
+                            <img alt="Museo del Mar de Galicia" src="img/museos/museomar.jpg">
+                            <h3>Museo del Mar de Galicia</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <div class="container">
+          <a class="header-logo-link" href="index.html">
+              <img src="img/logos/logo.png" class="header-logo" alt="cookination logo">
+              
+          </a>
+          <nav>
+              <ul>
+                <li><a class="active" href="categorias.html">Categorias</a></li>
+                <li><a href="presentacion.html">Presentación</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+              </ul>
+          </nav>
+        </div>
+      </footer>
+  </body>
+</html>
